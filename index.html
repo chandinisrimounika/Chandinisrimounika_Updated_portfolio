@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chandini Sri Mounika Vissamsetti | Software Engineer & AI/ML Developer</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Personal portfolio of Chandini Sri Mounika Vissamsetti - Computer Science Graduate from SRM University-AP specializing in Full-Stack Software Engineering, AI/ML, and Generative AI.">
+  <meta name="keywords" content="Chandini Sri Mounika Vissamsetti, Software Engineer, AI ML Developer, Full Stack Developer, Java, Spring Boot, React, Python, RAG, Generative AI">
+  <meta name="author" content="Chandini Sri Mounika Vissamsetti">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Chandini Sri Mounika Vissamsetti | Portfolio">
+  <meta property="og:description" content="Computer Science Graduate | Software Engineer | AI/ML & Generative AI Developer">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chandinisrimounika.github.io/chandinisrimounika-s_Portfolio/">
+  <meta property="og:image" content="assets/profile-photo.jpg">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Newsreader, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23c25e3e'/><text x='50' y='64' font-family='sans-serif' font-size='44' font-weight='800' fill='white' text-anchor='middle'>CSM</text></svg>">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Site Header & Sticky Navigation
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Chandini Sri Mounika Vissamsetti Home">
+        <span class="brand-monogram">CSM</span>
+        <div class="brand-text-block">
+          <span class="brand-name">Chandini Vissamsetti</span>
+          <span class="brand-sub">Software Engineer · AI/ML</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions: Theme Switcher & Mobile Menu Trigger -->
+      <div class="header-actions">
+        <a href="assets/Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" download="Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" class="btn btn-secondary btn-sm" style="display: none;" id="nav-resume-btn">
+          Resume ↓
+        </a>
+        
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle Theme">
+          <!-- Moon Icon (for Light Mode) -->
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (for Dark Mode) -->
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-nav-drawer" class="mobile-nav-drawer">
+    <a href="#home" class="mobile-nav-link">Home <span>→</span></a>
+    <a href="#about" class="mobile-nav-link">About <span>→</span></a>
+    <a href="#skills" class="mobile-nav-link">Technical Skills <span>→</span></a>
+    <a href="#projects" class="mobile-nav-link">Featured Projects <span>→</span></a>
+    <a href="#experience" class="mobile-nav-link">Experience <span>→</span></a>
+    <a href="#certifications" class="mobile-nav-link">Certifications <span>→</span></a>
+    <a href="#achievements" class="mobile-nav-link">Achievements <span>→</span></a>
+    <a href="#resume" class="mobile-nav-link">Resume (PDF) <span>→</span></a>
+    <a href="#contact" class="mobile-nav-link">Contact <span>→</span></a>
+  </div>
+
+  <main>
+    <!-- ========================================================================
+         1. Hero Section
+         ======================================================================== -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <!-- Hero Left Column -->
+        <div class="hero-content">
+          <div class="hero-greeting-pill">
+            <span class="pulse-dot"></span>
+            <span>Hello, I'm</span>
+          </div>
+
+          <h1 class="hero-title">
+            Chandini Sri Mounika <span class="highlight">Vissamsetti</span>
+          </h1>
+
+          <div class="hero-role">
+            <span>Software Engineer</span>
+            <span class="hero-role-sep">•</span>
+            <span>AI/ML Developer</span>
+            <span class="hero-role-sep">•</span>
+            <span>Java Full Stack</span>
+          </div>
+
+          <p class="hero-bio">
+            I am a Computer Science graduate from SRM University-AP specializing in Artificial Intelligence and Machine Learning. I enjoy building secure full-stack applications, AI-powered tools, and practical software solutions. My experience spans Java, Spring Boot, React, Python, Machine Learning, Generative AI, REST APIs, and database-driven applications.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              Explore My Projects
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <a href="assets/Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" download="Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" class="btn btn-secondary btn-lg" id="hero-resume-download">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download Resume
+            </a>
+
+            <a href="#contact" class="btn btn-ghost btn-lg">
+              Contact Me
+            </a>
+          </div>
+
+          <!-- Social Proof & Direct Links -->
+          <div class="hero-social-strip">
+            <a href="https://github.com/ChandiniSriMounika" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Profile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              <span>GitHub (30+ Repos)</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/chandini-sri-mounika-18ba3a258/" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:chandinisrimounika79@gmail.com" class="social-pill" title="Send Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Direct Email</span>
+            </a>
+
+            <a href="https://wa.me/917993975969" target="_blank" rel="noopener noreferrer" class="social-pill" title="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Formal Portrait & Technical Floating Badges -->
+        <div class="hero-visual">
+          <div class="hero-card-wrapper">
+            <!-- Floating Technical Badges -->
+            <div class="hero-float-pill hero-float-top">
+              <span class="badge badge-terracotta">Full Stack</span>
+              <span>Java · Spring Boot · React</span>
+            </div>
+
+            <!-- Main Formal Portrait -->
+            <div class="portrait-frame">
+              <img src="assets/profile-photo.jpg" alt="Chandini Sri Mounika Vissamsetti - Formal Portrait" class="portrait-image" width="400" height="500">
+              <div class="portrait-overlay-gradient"></div>
+            </div>
+
+            <!-- Floating AI / ML Badge -->
+            <div class="hero-float-pill hero-float-bottom">
+              <span class="badge badge-teal">AI / ML</span>
+              <span>Python · RAG · OCI Certified</span>
+            </div>
+
+            <!-- Status Preference Indicator -->
+            <div class="hero-status-bar">
+              <span class="status-dot"></span>
+              <span>Open to Software Engineering and AI Opportunities</span>
+            </div>
+
+            <!-- Terminal-Inspired Technical Preview Card -->
+            <div class="hero-terminal-card">
+              <div class="terminal-header">
+                <span class="term-dot red"></span>
+                <span class="term-dot yellow"></span>
+                <span class="term-dot green"></span>
+                <span class="terminal-cmd">csm@portfolio:~$ check-credentials</span>
+              </div>
+              <div class="terminal-line">
+                [OK] SRM University-AP B.Tech CSE (AIML) <span class="hl">7.93 CGPA</span>
+              </div>
+              <div class="terminal-line">
+                [OK] Naukri Young Turks: <span class="hl">93.28 %ile Nationwide</span>
+              </div>
+              <div class="terminal-line">
+                [OK] Flipkart GRiD 7.0: <span class="hl">National Semi-Finalist</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="scroll-indicator">
+        <span>Scroll to Explore</span>
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         2. About Me Section
+         ======================================================================== -->
+    <section id="about" class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Professional Profile</span>
+          <h2 class="section-title">Engineering With Purpose & Rigor</h2>
+          <p class="section-description">
+            Combining enterprise full-stack development with modern artificial intelligence to build dependable, impactful software systems.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Editorial Intro & Education Card -->
+          <div class="about-editorial-card">
+            <blockquote class="about-quote">
+              "I have hands-on experience through internships, research, and independent projects involving frontend development, deep learning, full-stack engineering, semantic search, and Generative AI. I enjoy translating ideas into functional applications, learning new technologies, and solving practical problems through software."
+            </blockquote>
+
+            <p class="about-body-text">
+              My engineering approach centers on clarity, maintainability, and end-to-end reliability. Whether engineering secure role-based REST APIs with Spring Boot and JWT, implementing vector embeddings for academic PDF semantic retrieval, or training convolutional neural networks on dermoscopic imagery, I take ownership from architecture to implementation.
+            </p>
+
+            <!-- Education Card -->
+            <div class="education-timeline-card">
+              <div class="edu-title-group">
+                <div class="edu-degree">B.Tech in Computer Science and Engineering</div>
+                <span class="badge badge-terracotta">2022 – 2026</span>
+              </div>
+              <div class="edu-meta"><strong>Specialization:</strong> Artificial Intelligence & Machine Learning</div>
+              <div class="edu-meta"><strong>University:</strong> SRM University-AP, Andhra Pradesh</div>
+              <div class="edu-specs">
+                <span class="badge badge-teal">CGPA: 7.93 / 10.0</span>
+                <span class="badge badge-gold">Intermediate: 75.5% (Sri Chaitanya)</span>
+                <span class="badge badge-gold">10th Grade: 98.5% (Sri Chaitanya)</span>
+              </div>
+            </div>
+
+            <!-- Professional Interests -->
+            <div style="margin-top: 24px;">
+              <h4 style="font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: var(--text-muted); margin-bottom: 10px;">
+                Core Professional Interests:
+              </h4>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Software Engineering</span>
+                <span class="tech-tag">Java Full Stack</span>
+                <span class="tech-tag">AI / Machine Learning</span>
+                <span class="tech-tag">Generative AI & RAG</span>
+                <span class="tech-tag">Backend Architecture</span>
+                <span class="tech-tag">Application Security</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- "What I Bring" Cards -->
+          <div class="what-i-bring-column">
+            <div class="what-card">
+              <div class="what-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.04z"></path>
+                  <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.04z"></path>
+                </svg>
+              </div>
+              <div class="what-content">
+                <h3>Problem-Solving & Analytical Rigor</h3>
+                <p>Structured algorithmic problem solving in Java and C++, recognized nationally as a Flipkart GRiD 7.0 semi-finalist.</p>
+              </div>
+            </div>
+
+            <div class="what-card">
+              <div class="what-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div class="what-content">
+                <h3>Enterprise Full-Stack Engineering</h3>
+                <p>End-to-end applications integrating Spring Boot / Node.js backends with responsive, stateful React and Next.js frontends.</p>
+              </div>
+            </div>
+
+            <div class="what-card">
+              <div class="what-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
+                </svg>
+              </div>
+              <div class="what-content">
+                <h3>AI Integration & Semantic Search</h3>
+                <p>Hands-on implementation of RAG pipelines, FAISS vector indexing, TF-IDF cosine similarity, and Google Gemini API integration.</p>
+              </div>
+            </div>
+
+            <div class="what-card">
+              <div class="what-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="what-content">
+                <h3>Security & Role-Based Authorization</h3>
+                <p>Implementation of JWT-based stateless authentication and strict role-based access control (RBAC) across API endpoints.</p>
+              </div>
+            </div>
+
+            <div class="what-card">
+              <div class="what-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div class="what-content">
+                <h3>Continuous Learning & Project Ownership</h3>
+                <p>Proven commitment to staying ahead through verified certifications in OCI Generative AI, IBM Deep Learning, and Claude ecosystem tools.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. Technical Skills Section
+         ======================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Technical Competencies</span>
+          <h2 class="section-title">Verified Skills & Tooling</h2>
+          <p class="section-description">
+            Organized by functional domains and clearly distinguished between technologies implemented in projects versus core certified/studied subjects.
+          </p>
+        </div>
+
+        <!-- Skills Filter Tabs -->
+        <div class="skills-filter-tabs">
+          <button class="skill-tab-btn active" data-filter="all">All Skills</button>
+          <button class="skill-tab-btn" data-filter="project">Project Proven</button>
+          <button class="skill-tab-btn" data-filter="certified">Core Studied & Certified</button>
+        </div>
+
+        <!-- Categories Grid (Rendered dynamically via main.js) -->
+        <div id="skills-container" class="skills-categories-grid"></div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. Featured Projects Section
+         ======================================================================== -->
+    <section id="projects" class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Portfolio of Work</span>
+          <h2 class="section-title">Featured Projects & Systems</h2>
+          <p class="section-description">
+            Explore verified applications spanning full-stack architectures, AI research assistants, high-performance dashboards, and resilient backend task workers.
+          </p>
+        </div>
+
+        <!-- Project Category Filters -->
+        <div class="project-filter-bar">
+          <button class="project-filter-btn active" data-filter="all">All Featured</button>
+          <button class="project-filter-btn" data-filter="Full Stack">Full Stack</button>
+          <button class="project-filter-btn" data-filter="AI/ML">AI / ML</button>
+          <button class="project-filter-btn" data-filter="Generative AI">Generative AI</button>
+          <button class="project-filter-btn" data-filter="Frontend">Frontend</button>
+          <button class="project-filter-btn" data-filter="Developer Tools">Developer Tools</button>
+        </div>
+
+        <!-- Top 6 Featured Projects Grid (Rendered dynamically via main.js) -->
+        <div id="featured-projects-grid" class="featured-projects-grid"></div>
+
+        <!-- Expandable & Searchable Project Library (Projects 7 to 15) -->
+        <div class="project-library-container">
+          <div class="library-header">
+            <div class="library-title-group">
+              <h3>Additional Projects & Repository Archive</h3>
+              <p>Search all 15 public GitHub repositories by tech stack, name, or keywords</p>
+            </div>
+            <div class="library-search-wrapper">
+              <svg class="library-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="library-search-input" class="library-search-input" placeholder="Search Python, React, Flask, Docker...">
+            </div>
+          </div>
+
+          <div id="library-grid" class="library-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. Internship and Research Experience
+         ======================================================================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Hands-On Experience</span>
+          <h2 class="section-title">Internships & Research</h2>
+          <p class="section-description">
+            Real-world technical contributions in deep learning computer vision research and production frontend interface development.
+          </p>
+        </div>
+
+        <!-- Vertical Experience Timeline (Rendered dynamically via main.js) -->
+        <div id="experience-timeline" class="experience-timeline"></div>
+
+        <!-- Internship Projects Subsection -->
+        <div class="intern-projects-wrapper">
+          <h3 class="intern-projects-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--terracotta)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+            Internship & Practice Projects
+          </h3>
+          <div id="intern-projects-grid" class="intern-projects-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. Certifications & Badges Section
+         ======================================================================== -->
+    <section id="certifications" class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Verified Credentials</span>
+          <h2 class="section-title">Certifications & Learning Badges</h2>
+          <p class="section-description">
+            Authentic industry credentials from Oracle University, Claude Academy, IBM, Coursera, and Infosys Springboard.
+          </p>
+        </div>
+
+        <div class="certifications-filter">
+          <button class="cert-filter-btn active" data-filter="all">All Credentials</button>
+          <button class="cert-filter-btn" data-filter="AI & Generative AI">AI & Generative AI</button>
+          <button class="cert-filter-btn" data-filter="Cloud & Infrastructure">Cloud & Infrastructure</button>
+          <button class="cert-filter-btn" data-filter="Programming & DSA">Programming & DSA</button>
+        </div>
+
+        <!-- Certifications Grid (Rendered dynamically via main.js) -->
+        <div id="certifications-grid" class="certifications-grid"></div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. Achievements Section
+         ======================================================================== -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Honors & Competitions</span>
+          <h2 class="section-title">Recognitions & Achievements</h2>
+          <p class="section-description">
+            National semi-finalist recognition, nationwide assessment percentiles, and active open source contributions.
+          </p>
+        </div>
+
+        <!-- Achievements Cards Grid (Rendered dynamically via main.js) -->
+        <div id="achievements-grid" class="achievements-grid"></div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. Dedicated Resume Section
+         ======================================================================== -->
+    <section id="resume" class="section section-subtle">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Curriculum Vitae</span>
+          <h2 class="section-title">My Professional Resume</h2>
+          <p class="section-description">
+            Verified, up-to-date resume document reflecting all projects, technical skills, education, and credentials.
+          </p>
+        </div>
+
+        <div class="resume-card-wrapper">
+          <div class="resume-info">
+            <span class="badge badge-teal" style="margin-bottom: 14px;">Original Verified Document</span>
+            <h3>Chandini Sri Mounika Vissamsetti</h3>
+            <p>
+              Looking for software developer, Java full-stack engineer, frontend developer, and AI/ML opportunities. Download the complete PDF resume or inspect it directly in your browser.
+            </p>
+
+            <div class="resume-highlights-grid">
+              <div class="resume-hl-item">
+                <div class="resume-hl-title">Education</div>
+                <div class="resume-hl-val">B.Tech CSE (AIML), 7.93 CGPA</div>
+              </div>
+              <div class="resume-hl-item">
+                <div class="resume-hl-title">Flagship Skill</div>
+                <div class="resume-hl-val">Java · Spring Boot · Python · RAG</div>
+              </div>
+              <div class="resume-hl-item">
+                <div class="resume-hl-title">Honors</div>
+                <div class="resume-hl-val">Flipkart GRiD 7.0 Semi-Finalist</div>
+              </div>
+              <div class="resume-hl-item">
+                <div class="resume-hl-title">Skill Assessment</div>
+                <div class="resume-hl-val">93.28 %ile Naukri Young Turks</div>
+              </div>
+            </div>
+
+            <div class="resume-actions-group">
+              <a href="assets/Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" download="Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" class="btn btn-primary btn-lg">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download Resume (PDF)
+              </a>
+
+              <a href="assets/Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                View PDF in Browser ↗
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-preview-box">
+            <div class="resume-preview-header">
+              <div class="resume-file-info">
+                <div class="resume-icon-badge">PDF</div>
+                <div>
+                  <div class="resume-file-name">Chandini-Sri-Mounika-Vissamsetti-Resume.pdf</div>
+                  <div class="resume-file-meta">Original Verified Resume • 122 KB • Updated Oct 2026</div>
+                </div>
+              </div>
+              <span class="badge badge-gold">Verified</span>
+            </div>
+
+            <div class="resume-quick-view">
+              <p><strong>Candidate Profile:</strong> Chandini Sri Mounika Vissamsetti</p>
+              <p><strong>Specialization:</strong> CSE with AI & Machine Learning, SRM University-AP</p>
+              <p><strong>Core Stacks:</strong> Spring Boot, Java, React, Next.js, Python, RAG, MySQL, MongoDB</p>
+              <p><strong>Certifications:</strong> OCI Generative AI, Claude Academy, IBM PyTorch, Coursera DSA</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 6px;">
+              <a href="assets/Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" target="_blank" class="btn btn-ghost btn-sm" style="width: 100%;">
+                Open Fullscreen Document Preview ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         9. Contact Section
+         ======================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2 class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-description">
+            Have an opportunity, a project idea, or a role that fits my skills? I'd love to connect.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details & Quick Copy Buttons -->
+          <div class="contact-info-card">
+            <div class="contact-card-box">
+              <!-- Email Row -->
+              <div class="contact-method-row">
+                <div class="contact-method-left">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-method-label">Direct Email</div>
+                    <a href="mailto:chandinisrimounika79@gmail.com" class="contact-method-val">chandinisrimounika79@gmail.com</a>
+                  </div>
+                </div>
+                <button id="copy-email-btn" class="btn btn-secondary btn-sm" title="Copy email address">
+                  Copy
+                </button>
+              </div>
+
+              <!-- Phone & WhatsApp Row -->
+              <div class="contact-method-row">
+                <div class="contact-method-left">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-method-label">Phone / WhatsApp</div>
+                    <a href="tel:+917993975969" class="contact-method-val">+91 79939 75969</a>
+                  </div>
+                </div>
+                <div style="display: flex; gap: 6px;">
+                  <a href="https://wa.me/917993975969" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" title="Chat on WhatsApp">
+                    WhatsApp
+                  </a>
+                  <button id="copy-phone-btn" class="btn btn-secondary btn-sm" title="Copy Phone Number">
+                    Copy
+                  </button>
+                </div>
+              </div>
+
+              <!-- Location Row -->
+              <div class="contact-method-row">
+                <div class="contact-method-left">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-method-label">Location</div>
+                    <div class="contact-method-val">Vijayawada, Andhra Pradesh, India</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links Quick Pills -->
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+              <a href="https://github.com/ChandiniSriMounika" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>GitHub</span> ↗
+              </a>
+              <a href="https://www.linkedin.com/in/chandini-sri-mounika-18ba3a258/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>LinkedIn</span> ↗
+              </a>
+              <a href="https://www.instagram.com/chandinisrimounika79/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>Instagram</span> ↗
+              </a>
+              <a href="https://web.telegram.org/a/#5630683795" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>Telegram</span> ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Functional Contact Form -->
+          <div class="contact-form-card">
+            <h3 class="contact-form-title">Send a Direct Message</h3>
+            <p class="contact-form-subtitle">Fill in the form below to immediately compose a message to my inbox or WhatsApp.</p>
+
+            <form id="portfolio-contact-form">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Jane Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email</label>
+                <input type="email" id="form-email" class="form-input" placeholder="e.g. jane@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" class="form-input" placeholder="e.g. Software Engineering Opportunity">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" class="form-textarea" rows="4" placeholder="Hi Chandini, I came across your portfolio and would like to discuss..." required></textarea>
+              </div>
+
+              <div class="form-actions-row">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                  Draft Email (mailto:)
+                </button>
+
+                <button type="button" id="form-whatsapp-btn" class="btn btn-secondary btn-lg">
+                  Send via WhatsApp
+                </button>
+              </div>
+
+              <p class="form-disclaimer">
+                Note: Submitting prepares a direct, pre-filled email draft or WhatsApp chat. No personal data is stored on third-party servers.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo">
+            <span class="brand-monogram">CSM</span>
+            <span class="brand-name">Chandini Sri Mounika Vissamsetti</span>
+          </a>
+          <p>
+            Computer Science graduate specializing in AI/ML from SRM University-AP. Building secure enterprise full-stack systems, RAG-driven AI pipelines, and responsive software solutions.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-links-title">Quick Navigation</div>
+          <div class="footer-links-list">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#about" class="footer-link">About Me</a>
+            <a href="#skills" class="footer-link">Technical Skills</a>
+            <a href="#projects" class="footer-link">Featured Projects</a>
+            <a href="#experience" class="footer-link">Experience</a>
+            <a href="#certifications" class="footer-link">Certifications</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-links-title">Connect & Resume</div>
+          <div class="footer-links-list">
+            <a href="assets/Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" download="Chandini-Sri-Mounika-Vissamsetti-Resume.pdf" class="footer-link">Download Resume (PDF)</a>
+            <a href="https://github.com/ChandiniSriMounika" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/chandini-sri-mounika-18ba3a258/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn Profile</a>
+            <a href="mailto:chandinisrimounika79@gmail.com" class="footer-link">chandinisrimounika79@gmail.com</a>
+            <a href="https://wa.me/917993975969" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp (+91 7993975969)</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Chandini Sri Mounika Vissamsetti. All rights reserved.
+        </div>
+        <div>
+          Crafted with Semantic HTML5, Modern CSS3 & Vanilla JavaScript • Zero External Frameworks
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Modals: Project Architecture & Certificate Viewer
+       ======================================================================== -->
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeModals()" aria-label="Close dialog">✕</button>
+      <div id="project-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Certificate / Achievement Modal -->
+  <div id="certificate-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="cert-title">
+    <div class="modal-card" style="max-width: 600px;">
+      <button class="modal-close-btn" onclick="closeModals()" aria-label="Close dialog">✕</button>
+      <div id="certificate-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- JavaScript Modules (Loaded in Strict Dependency Order) -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

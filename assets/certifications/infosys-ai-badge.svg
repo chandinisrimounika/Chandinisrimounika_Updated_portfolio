@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="infyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#007CC3"/>
+      <stop offset="100%" stop-color="#005B94"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="20" width="280" height="280" rx="24" fill="#FFFFFF" stroke="#007CC3" stroke-width="4"/>
+  <rect x="28" y="28" width="264" height="264" rx="18" fill="#F0F9FF" stroke="#E0F2FE" stroke-width="1"/>
+
+  <g transform="translate(160, 110)">
+    <circle cx="0" cy="0" r="46" fill="url(#infyBlue)"/>
+    <path d="M -16 -16 L 16 -16 L 16 16 L -16 16 Z" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <circle cx="0" cy="0" r="6" fill="#38BDF8"/>
+    <line x1="-16" y1="-16" x2="16" y2="16" stroke="#93C5FD" stroke-width="2"/>
+    <line x1="16" y1="-16" x2="-16" y2="16" stroke="#93C5FD" stroke-width="2"/>
+  </g>
+
+  <text x="160" y="188" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="800" fill="#005B94" text-anchor="middle">ADVANCED AI</text>
+  <text x="160" y="208" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#1E293B" text-anchor="middle">PROJECTS WITH PYTHON</text>
+  <text x="160" y="228" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748B" text-anchor="middle">Infosys Springboard</text>
+
+  <g transform="translate(160, 260)">
+    <rect x="-56" y="-10" width="112" height="20" rx="10" fill="#E0F2FE"/>
+    <text x="0" y="4" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#0369A1" text-anchor="middle">ONWINGSPAN VERIFIED</text>
+  </g>
+</svg>
