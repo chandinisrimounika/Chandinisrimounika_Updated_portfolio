@@ -11,7 +11,7 @@
 A modern, responsive, editorial-grade personal portfolio website built with **pure semantic HTML5, modern CSS3, and vanilla JavaScript (zero external framework dependencies)**. Designed specifically to present verified engineering capabilities, research internships, national achievements, certifications, and deployed projects to technology recruiters and hiring managers.
 
 - **Live Deployment Path**: Designed for instant hosting on **GitHub Pages**, **Netlify**, or **Vercel** with zero build steps.
-- **Existing Portfolio URL**: [https://chandinisrimounika.github.io/chandinisrimounika-s_Portfolio/](https://chandinisrimounika.github.io/chandinisrimounika-s_Portfolio/)
+- **Existing Portfolio URL**: [https://chandinisrimounika.github.io/Chandinisrimounika_Updated_portfolio/](https://chandinisrimounika.github.io/Chandinisrimounika_Updated_portfolio/)
 
 ---
 
@@ -86,23 +86,12 @@ npx serve .
 
 ## 🌐 Deployment Instructions
 
-### 1. Deploying to GitHub Pages (Recommended)
+### 1. Deploying to GitHub Pages
 1. Commit all files in this directory to your repository (e.g. `chandinisrimounika-s_Portfolio` or `<username>.github.io`).
 2. In your GitHub repository, go to **Settings** → **Pages**.
 3. Under **Build and deployment**, select **Source: Deploy from a branch**.
 4. Select the `main` branch and `/ (root)` folder.
 5. Click **Save**. Your website will be live in 1–2 minutes!
-
-### 2. Deploying to Netlify
-1. Connect your GitHub repository to Netlify, or drag-and-drop the `chandini-portfolio` folder directly into [Netlify Drop](https://app.netlify.com/drop).
-2. Build command: *(leave empty)*
-3. Publish directory: `.` *(root)*
-
-### 3. Deploying to Vercel
-1. Run `npx vercel` or import your GitHub repository into the Vercel dashboard.
-2. Framework Preset: **Other**
-3. Build command: *(leave empty)*
-4. Output directory: `.` *(root)*
 
 ---
 
